@@ -1,0 +1,1 @@
+az deployment group create --name ExampleDeployment --resource-group ExampleGroup --template-file Azure\ARM deploy by CLI\arm_storage.json --parameters storageAccountType=Standard_GRS
